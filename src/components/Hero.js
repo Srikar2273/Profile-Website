@@ -178,14 +178,22 @@ const Hero = () => {
             )}
           </Box>
 
-          <Typography variant="h6" sx={{ fontWeight: 800 }}>
-            Quick Snapshot
-          </Typography>
-
-          <Stack direction="row" useFlexGap gap={1} sx={{ mt: 1.2, flexWrap: 'wrap' }}>
-            <Chip label={profile.location} variant="outlined" />
-            <Chip label="Microservices" variant="outlined" />
-            <Chip label="SaaS Platforms" variant="outlined" />
+          <Stack direction="row" useFlexGap gap={1} sx={{ mt: 1.2, width: '100%', flexWrap: 'wrap' }}>
+            <Chip label={profile.location} variant="outlined" sx={{
+              flex: '1 1 auto',
+              justifyContent: 'center',
+              minWidth: 0,
+            }} />
+            <Chip label="Microservices" variant="outlined" sx={{
+              flex: '1 1 auto',
+              justifyContent: 'center',
+              minWidth: 0,
+            }} />
+            <Chip label="SaaS Platforms" variant="outlined" sx={{
+              flex: '1 1 auto',
+              justifyContent: 'center',
+              minWidth: 0,
+            }} />
           </Stack>
 
           <Button

@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
+/* Prevent the browser's navigation/caret cursor from appearing on normal page content.
+   Text remains selectable/editable inside form controls and contenteditable elements. */
+html,
+body,
+#root {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+input,
+textarea,
+select,
+[contenteditable='true'] {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
 body {
   margin: 0;
   font-family: 'Manrope', sans-serif;

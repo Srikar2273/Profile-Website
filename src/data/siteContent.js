@@ -12,7 +12,7 @@ export const profile = {
   shortName: 'Srikar',
   title: 'Software Engineer',
   tagline: '.NET | React | Angular | Azure | Microservices | Micro-frontends',
-  location: 'Chennai, India',
+  location: 'Hyderabad, India',
   phone: '+91-9618182273',
   email: 'kbnsrikar2273@gmail.com',
   linkedin: 'https://www.linkedin.com/in/kbn-srikar/',
